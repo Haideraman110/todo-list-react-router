@@ -1,0 +1,9 @@
+.cont{
+    width: 50%;
+    height: auto;
+    padding: 1.2rem;
+    background-color: rgb(32, 71, 86);
+    margin-top: 2rem;
+    box-shadow: .2rem .6rem .7rem rgba(0,0,0,.5);
+
+}

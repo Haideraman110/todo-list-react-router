@@ -42,7 +42,8 @@ const Home = () => {
                 <>
 
                   <div className='dataCont' key={i} style={{ padding: '1.2rem' }}>
-                    <span onClick={() => setCutText(!cuttext)}>
+
+                    <span onClick={() => setCutText(!cuttext)}>   
                       <input type='checkbox' className='form-control' name='cutting' checked={inpcheck.cutting} onChange={handleCutting} />
                     </span>
 
